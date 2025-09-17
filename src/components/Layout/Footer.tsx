@@ -24,13 +24,13 @@ export function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
             <div className="space-y-2">
-              <Link to="/#/tournaments" className="block text-gray-400 hover:text-purple-400 transition-colors">
+              <Link to="/tournaments" className="block text-gray-400 hover:text-purple-400 transition-colors">
                 Tournaments
               </Link>
-              <Link to="/#/about" className="block text-gray-400 hover:text-purple-400 transition-colors">
+              <Link to="/about" className="block text-gray-400 hover:text-purple-400 transition-colors">
                 About Us
               </Link>
-              <Link to="/#/contact" className="block text-gray-400 hover:text-purple-400 transition-colors">
+              <Link to="/contact" className="block text-gray-400 hover:text-purple-400 transition-colors">
                 Contact
               </Link>
             </div>
