@@ -123,7 +123,7 @@ export function TournamentsPage() {
                   {tournament.type === 'paid' && (
                     <div className="flex items-center text-gray-300">
                       <DollarSign className="h-4 w-4 mr-2" />
-                      <span className="text-sm">Entry Fee: ₹{tournament.entry_fee}</span>
+                      <span className="text-sm">Entry Fee: ₹{tournament.entry_fee} per squad</span>
                     </div>
                   )}
 
