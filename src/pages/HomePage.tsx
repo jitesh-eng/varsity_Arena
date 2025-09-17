@@ -68,25 +68,25 @@ export function HomePage() {
             title: "Join Epic Tournaments",
             desc: "Participate in Daily, Weekly, Monthly and Random days tournaments and competitions. Win prizes, climb rankings, and prove your skills against the best players in the community.",
             img: img1,
-            btn: { text: "Browse Tournaments", link: "/tournaments" },
+            btn: { text: "Browse Tournaments", link: "/#/tournaments" },
           },
           {
             title: "Track Your Progress",
             desc: "Keep an eye on your detailed stats, match history, and overall performance. Follow your journey as you climb the leaderboard, unlock achievements, and showcase your skills to the entire community.",
             img: img2,
-            btn: { text: "Leaderboard", link: "/tournaments" },
+            btn: { text: "Leaderboard", link: "/#/tournaments" },
           },
           {
             title: "Win Real Rewards",
             desc: "Compete in tournaments to win exciting cash prizes, unlock exclusive perks, and gain recognition among top players. Your skills don’t just bring victory — they bring real rewards and lasting prestige in the community.",
             img: img333,
-            btn: { text: "See Rewards", link: "/about" }, 
+            btn: { text: "See Rewards", link: "/#/about" }, 
           },
           {
             title: "Fair Play & Security",
             desc: "Advanced anti-cheat technology, strict monitoring, and transparent rules ensure that every match is safe, fair, and competitive. We are committed to building a trusted platform where skill decides the outcome — not unfair advantages.",
             img: img4,
-            btn: { text: "Security Info", link: "/about" },
+            btn: { text: "Security Info", link: "/#/about" },
           },
         ].map((item, idx) => (
           <motion.div
