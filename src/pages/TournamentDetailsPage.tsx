@@ -180,7 +180,7 @@ export function TournamentDetailsPage() {
           <div className="mb-6">
             <p className="text-gray-300 text-sm mb-2">Join our Official WhatsApp Group For all Updates:</p>
             <a
-              href="https://chat.whatsapp.com/L0e3Uhf5Jah5XCNiA05ypg" // <-- yaha apna group link daalna hai
+              href="https://chat.whatsapp.com/CXb6plWAAAm5RMp1OLQdcp" // <-- yaha apna group link daalna hai
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-semibold transition"
