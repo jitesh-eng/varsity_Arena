@@ -175,7 +175,7 @@ export function LeaderboardPage() {
                   </th>
                   {leaderboard.some(entry => entry.tournament.type === 'paid') && (
                     <th className="px-2 md:px-6 py-2 md:py-4 text-left text-[0.65rem] md:text-xs font-medium text-gray-300 uppercase tracking-wider">
-                      Payment
+                      Verification
                     </th>
                   )}
                 </tr>
