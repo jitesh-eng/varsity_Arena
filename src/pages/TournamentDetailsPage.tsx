@@ -223,7 +223,7 @@ export function TournamentDetailsPage() {
             <p className="text-sm md:text-base text-purple-100">{tournament.description}</p>
           </div>
 
-          <div className="p-8">
+          <div className="p-3 md:p-8">
             {/* Step 1: Tournament Details + Rules + Registration Form */}
             {!(tournament.type === 'paid' && showPaymentStep) && (
               <>
@@ -267,7 +267,7 @@ export function TournamentDetailsPage() {
 
                 <div>
                   <h2 className="text-base md:text-xl font-bold text-white mb-4">Rules</h2>
-                  <div className="bg-gray-700 rounded-lg p-3 md:p-4">
+                  <div className="bg-gray-700 rounded-lg p-2 md:p-4">
                     <p className="text-xs md:text-base text-gray-300 whitespace-pre-line">{tournament.rules}</p>
                   </div>
                 </div>
