@@ -263,6 +263,16 @@ export function TournamentDetailsPage() {
                     </div>
                   </div>
 
+                  {/* 👉 Yaha button add kar diya side me */}
+                  <div className="flex items-center justify-center">
+                    <button
+                      onClick={() => navigate(`/leaderboard/${tournament.id}`)}
+                      className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition"
+                    >
+                      Show Leaderboard Details 
+                    </button>
+                  </div>
+
                 </div>
 
                 <div>
